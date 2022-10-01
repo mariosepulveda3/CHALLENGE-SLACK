@@ -54,14 +54,17 @@ table {
 
 header {
     background-color: rgb(90, 7, 90);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 20px 25px 20px;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    
+    .div-1 {
+        
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        
 
-    div {
-        display:flex;
     }
     
     p {
@@ -78,7 +81,7 @@ header {
     text-align: center;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     
     h1 {
         color:white;
@@ -288,6 +291,11 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
     p {
         padding-top: 10px;
     }
@@ -324,8 +332,7 @@ header {
 
     background-color: white;
     padding: 20px 30px;
-
-    border:solid;
+    border:transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
