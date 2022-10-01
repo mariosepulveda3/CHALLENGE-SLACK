@@ -72,6 +72,7 @@ header {
 
 .section-1 {
 
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(90, 7, 90);
     padding: 20px;
     text-align: center;
@@ -82,14 +83,12 @@ header {
     h1 {
         color:white;
         padding-bottom: 15px;
-        font-family: 'Open Sans', sans-serif;
         font-size: 38px;
     }
     
     p {
         color:white;
         padding: 5px;
-        font-family: 'Open Sans', sans-serif;
         font-size: 15px;
     }
 
@@ -99,7 +98,7 @@ header {
 
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    background-color: rgb(224, 224, 224);
+    background-color: whitesmoke;
     padding: 30px 44px;
     text-align: center;
     display:flex;
@@ -169,6 +168,135 @@ header {
 
 }
 
+.section-5 {
+
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 100px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-size: 45px;
+        color:rgb(90, 7, 90)
+
+    }
+
+    p {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+    }
+
+}
+
+.section-6 {
+    
+    padding: 20px 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding-top: 20px;
+        
+    }
+
+    a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+}
+
+.section-7 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(179, 124, 124);
+    padding: 30px 50px 0px 50px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+}
+
+.box {
+    padding: 15px;
+    background-color: white;
+    text-align: start;
+
+    p {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    a {
+        font-size: 15px;
+        padding-top: 70px;
+    }
+}
+
+.section-8 {
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(90, 7, 90);
+    padding-bottom: 90px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        color:white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+
+}
+
+.points {
+    padding: 0px 50px 0px 50px;
+}
+
+.style-comment {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: gray;
+    padding: 20px 15px;
+    display:flex;
+    text-align: center;
+
+}
+
 .style-button {
 
     background-color: white;
@@ -186,4 +314,10 @@ header {
 
     width: 25px;
     height: 25px;
+}
+
+.small-log {
+    width: 100px;
+    height: 100px;
+
 }
