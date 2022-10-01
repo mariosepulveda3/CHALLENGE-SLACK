@@ -265,7 +265,7 @@ header {
 
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(90, 7, 90);
-    padding-bottom: 90px;
+    padding: 0px 20px 90px 20px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     text-align: center;
@@ -280,6 +280,29 @@ header {
         font-size: 25px;
     }
 
+}
+
+.footer {
+    padding: 20px;
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+    p {
+        padding-top: 10px;
+    }
+
+    h4 {
+        padding-block: 13px;
+
+    
+    }
+}
+
+.last-div {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .points {
@@ -300,8 +323,12 @@ header {
 .style-button {
 
     background-color: white;
-    padding: 50px;
+    padding: 20px 30px;
+
     border:solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .img-capture {
@@ -316,8 +343,20 @@ header {
     height: 25px;
 }
 
+.img-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50px;
+    height:50px;
+
+}
+
 .small-log {
     width: 100px;
     height: 100px;
 
+}
+
+a {
+    text-decoration: none;
 }
