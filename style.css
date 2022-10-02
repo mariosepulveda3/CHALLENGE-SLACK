@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -70,7 +70,7 @@ header .div-1 {
 }
 header p {
   font-size: 25px;
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: white;
 }
@@ -79,7 +79,7 @@ header p {
   max-width: 100%;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   background-color: #541554;
-  padding: 20px;
+  padding: 30px 13px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -88,8 +88,11 @@ header p {
 .section-1 h1 {
   color: white;
   padding-bottom: 15px;
-  font-size: 38px;
+  font-size: 40px;
   font-weight: bold;
+}
+.section-1 h1 .text-yellow {
+  color: rgb(246, 173, 0);
 }
 .section-1 p {
   color: white;
@@ -196,14 +199,6 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.section-6 .style-comment {
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-  font-size: 13px;
-  color: gray;
-  padding: 20px 15px;
-  display: flex;
-  text-align: center;
 }
 .section-6 h2 {
   font-size: 20px;
@@ -328,4 +323,13 @@ header p {
 .img-logo {
   width: 25px;
   height: 25px;
+}
+
+.style-comment {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  color: gray;
+  padding: 20px 15px;
+  display: flex;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
