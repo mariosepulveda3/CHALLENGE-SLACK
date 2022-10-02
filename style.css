@@ -288,11 +288,6 @@ header p {
   width: 50px;
   height: 50px;
 }
-.footer .last-div {
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-}
 .footer div {
   display: flex;
   justify-content: space-between;
@@ -310,9 +305,39 @@ header p {
   background-color: white;
   padding: 20px 30px;
   border: transparent;
+  border-radius: 5px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.button-down {
+  background-color: transparent;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 5px;
+  border: solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-center {
+  background-color: #541554;
+  padding: 20px 30px;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-center-2 {
+  background-color: #541554;
+  padding: 20px 30px;
+  margin-top: 5px;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .img-capture {
@@ -323,6 +348,12 @@ header p {
 .img-logo {
   width: 25px;
   height: 25px;
+}
+
+.last-div {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .style-comment {

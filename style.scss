@@ -338,11 +338,6 @@ header {
         height:50px;
     }
 
-    .last-div {
-        padding: 30px;
-        display: flex;
-        justify-content: space-between;
-    }
 
     div {
         display: flex;
@@ -365,11 +360,48 @@ header {
 
     background-color: white;
     padding: 20px 30px;
-    border:transparent;
+    border: transparent;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
+
+.button-down {
+
+    background-color: transparent;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 5px;
+    border: solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button-center {
+
+    background-color: #541554;
+    padding: 20px 30px;
+    border: transparent;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.button-center-2 {
+
+    background-color: #541554;
+    padding: 20px 30px;
+    margin-top: 5px;
+    border: transparent;
+    border-radius: 5px;
+    text-align: center;
+
+    }
 
 .img-capture {
 
@@ -382,6 +414,13 @@ header {
     width: 25px;
     height: 25px;
 }
+
+.last-div {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .style-comment {
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
