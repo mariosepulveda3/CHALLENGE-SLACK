@@ -49,6 +49,10 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    background-color: #f4ede4;
+}
+
 a {
     text-decoration: none;
 }
@@ -67,6 +71,7 @@ header {
     }
     
     p {
+        padding-left: 5px;
         font-size: 25px;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
@@ -176,6 +181,7 @@ header {
 .section-4 {
     
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    background-color: white;
     padding: 20px 20px;
     text-align: center;
     display:flex;
@@ -203,6 +209,7 @@ header {
 .section-5 {
    
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    background-color: white;
     padding: 20px 100px;
     text-align: center;
     display:flex;
@@ -224,7 +231,8 @@ header {
 }
 
 .section-6 {
-    
+
+    background-color: white;    
     padding: 20px 35px;
     display:flex;
     flex-direction: column;
@@ -325,6 +333,7 @@ header {
 
 .footer {
     
+    background-color: white;
     padding: 20px;
     font-weight: bold;
     text-align: start;
@@ -416,6 +425,7 @@ header {
 }
 
 .last-div {
+    background-color: white;
     padding: 30px;
     display: flex;
     justify-content: space-between;
