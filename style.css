@@ -74,7 +74,7 @@ header .div-1 {
 }
 header p {
   padding-left: 5px;
-  font-size: 25px;
+  line-height: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: white;
@@ -100,6 +100,7 @@ header p {
   color: rgb(246, 173, 0);
 }
 .section-1 p {
+  line-height: 20px;
   color: white;
   padding: 5px;
   font-size: 15px;
@@ -111,6 +112,7 @@ header p {
 .section-2 {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-size: 15px;
+  line-height: 20px;
   font-weight: bold;
   background-color: #f4ede4 !important;
   padding: 30px 44px;
@@ -146,11 +148,13 @@ header p {
   justify-content: center;
 }
 .section-3 h2 {
+  line-height: 35px;
   font-size: 28px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 .section-3 p {
+  line-height: 25px;
   font-size: 17px;
   padding-bottom: 20px;
 }
@@ -168,11 +172,13 @@ header p {
   justify-content: center;
 }
 .section-4 h1 {
+  line-height: 35px;
   padding-top: 70px;
   font-size: 30px;
   font-weight: bold;
 }
 .section-4 p {
+  line-height: 20px;
   padding: 30px;
   font-size: 15px;
 }
@@ -184,7 +190,7 @@ header p {
 .section-5 {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   background-color: white;
-  padding: 20px 100px;
+  padding: 50px 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -196,6 +202,7 @@ header p {
   color: #541554;
 }
 .section-5 p {
+  line-height: 20px;
   font-size: 13px;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -209,11 +216,13 @@ header p {
   justify-content: center;
 }
 .section-6 h2 {
+  line-height: 30px;
   font-size: 20px;
   font-style: italic;
   padding-top: 40px;
 }
 .section-6 p {
+  line-height: 20px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   padding-top: 20px;
@@ -236,6 +245,7 @@ header p {
   justify-content: center;
 }
 .section-7 h2 {
+  line-height: 30px;
   font-size: 20px;
   font-weight: bold;
   padding-top: 20px;
@@ -277,6 +287,7 @@ header p {
   justify-content: center;
 }
 .section-8 h2 {
+  line-height: 35px;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -285,6 +296,7 @@ header p {
 
 .footer {
   background-color: white;
+  line-height: 45px;
   padding: 20px;
   font-weight: bold;
   text-align: start;
@@ -301,12 +313,7 @@ header p {
   display: flex;
   justify-content: space-between;
 }
-.footer p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .footer h4 {
-  padding-block: 13px;
   color: black;
 }
 
@@ -354,6 +361,22 @@ header p {
   height: 100%;
 }
 
+.size-video {
+  width: 100%;
+  height: 100%;
+}
+
+.position-video {
+  background-color: white;
+  padding-right: 10px;
+}
+.position-video .size-video-2 {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 25% 50%;
+  border-top-right-radius: 25% 50%;
+}
+
 .img-logo {
   width: 25px;
   height: 25px;
@@ -367,6 +390,7 @@ header p {
 }
 
 .style-comment {
+  line-height: 20px;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-size: 13px;
   color: gray;
