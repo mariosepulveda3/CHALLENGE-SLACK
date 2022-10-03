@@ -73,12 +73,15 @@ header {
     p {
         padding-left: 5px;
         line-height: 20px;
+        font-size: 25px;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         color: white;
     }
 
 } 
+
+//.fixed { position: fixed; width: 58%;}
 
 .section-1 {
    
@@ -87,9 +90,7 @@ header {
     background-color: #541554;
     padding: 30px 13px;
     text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+    // display:flex; flex-direction: column; justify-content: space-between;
 
     
     h1 {
@@ -105,7 +106,7 @@ header {
     }
     
     p {
-        line-height: 20px;
+        line-height: 25px;
         color:white;
         padding: 5px;
         font-size: 15px;
@@ -326,8 +327,8 @@ header {
     font-size: 15px;
     background-color: #541554;
     padding: 50px 20px 90px 20px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 50% 15%;
+    border-bottom-right-radius: 50% 15%;
     text-align: center;
     display:flex;
     flex-direction: column;
